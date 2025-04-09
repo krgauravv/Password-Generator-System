@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .output-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .output-box input {
+    flex: 1;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .output-box button {
+    padding: 0.75rem;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .output-box button:hover {
+    background-color: #ddd;
+  }
+  
+  .options {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .options label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #generate {
+    background-color: #667eea;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #generate:hover {
+    background-color: #5561d0;
+  }
+  
